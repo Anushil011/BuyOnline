@@ -1,0 +1,37 @@
+.NavigationItems {
+  display: flex;
+  flex-flow: row;
+}
+
+.Dropdown {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.profile {
+  display: block;
+  padding: 5px 5px;
+  margin: 0 10px;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.profile:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.dropdownContent {
+  display: none;
+  padding: 10px;
+}
+
+.Dropdown:hover .dropdownContent {
+  display: block;
+  background-color:  rgb(53, 143, 179);
+  flex-direction: column;
+  margin: 0 10px;
+  position: absolute;
+  text-align: left;
+}

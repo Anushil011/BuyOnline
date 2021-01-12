@@ -1,0 +1,14 @@
+.NavigationItem {
+  margin: 5px;
+}
+
+.Navlink {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.Navlink:hover {
+  color: blue;
+}

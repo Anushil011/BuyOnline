@@ -1,0 +1,15 @@
+.Inventory {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px ;
+}
+
+@media (max-width:440px){
+  .Inventory {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+  }
+}

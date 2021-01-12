@@ -1,0 +1,56 @@
+.Navbar {
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(53, 143, 179);
+  color: white;
+  max-height: 50px;
+}
+
+.Navitem {
+  padding: 3px;
+  margin: 5px 15px;
+}
+
+.Navbar  form {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.Navbar  form  input{
+  width:80%;
+  height: 30px;
+}
+.Navbar  form  button{
+  height: 35px;
+}
+
+
+.hamburger{
+  background-color: white;
+  margin: 3px 0;
+  height: 1px;
+  width: 30px;
+  padding: 3px;
+  border-radius: 10px;
+  display: none;
+}
+
+@media (max-width: 700px) {
+  nav.Navitem {
+    display: none;
+  }
+
+  .hamburger{
+    background-color: white;
+    margin: 3px 0;
+    height: 1px;
+    width: 30px;
+    padding: 3px;
+    border-radius: 10px;
+    display: block;
+  }
+}
